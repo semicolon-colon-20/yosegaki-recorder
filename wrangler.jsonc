@@ -1,0 +1,14 @@
+{
+  "name": "yosegaki-recorder",
+  "main": "src/worker.ts",
+  "compatibility_date": "2026-10-07",
+
+  "vars": {
+    "GITHUB_REPOSITORY": "semicolon-colon-20/yosegaki-recorder",
+    "GITHUB_REF": "main",
+  },
+
+  "triggers": {
+    "crons": ["* * * * *"],
+  },
+}
